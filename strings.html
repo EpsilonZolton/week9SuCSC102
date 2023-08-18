@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+    Stings page for input validation
+    Ethan Zolton Akocs
+    8/15/2023
+    ezakocs@gmail.com
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings Page</title>
+    <!--auto generated html script with a title change above-->
+    <!--now onto real code starting with a css style import-->
+    <link href="stringsStyle.css" rel="stylesheet" type="text/css">
+    <!--importing our code cause we need that-->
+    <script src="code.js"></script>
+</head>
+<body>
+    <h1>welcome to my strings page, have fun :3</h1>
+    <center><img id="pic" src="IMG_9600.png"></center>
+    <center><h5>commicaly large 12 gauge</h5></center>
+    <br>
+    please log in below \/ <br>
+    <br>
+    <div id="loginStatus">Status of login</div><br>
+    <br> <!--this will tell you if your loged in or not-->
+    <form id="credit" onsubmit="return false">
+        First Name: <input type="text" id="fName"><br>
+        Last Name: <input type="text" id="lName"><br>
+        ZIP code: <input type="text" id="zipCode"><br>
+        <br> <!--and here is where you can login-->
+        <input type="submit" onclick="checkCreds()" class="button">
+    </form>
+    <br>
+    <br>
+    <h1>palindrome checker</h1>
+    <br>
+    <div id="palinStatus">Palindrome Status</div>
+    <br>
+    <form id="palinSubmit" onsubmit="return false">
+    Enter palindrome text: <input type="text" id="palinInput">
+    <input type="submit" onclick="checkPalin();" class="button">
+    </form>
+
+</body>
+</html>
